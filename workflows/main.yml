@@ -41,3 +41,4 @@ jobs:
         run: |
           terraform apply -auto-approve \
             -var="subscription_id=${{ secrets.AZURE_SUBSCRIPTION_ID }}"
+# new one
